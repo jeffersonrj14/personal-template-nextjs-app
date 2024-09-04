@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+  html {
+    @apply bg-ternary-dark;
+  }
+  .focusable {
+    @apply box-decoration-clone focus:!decoration-transparent focus:outline-none focus:ring focus:ring-red-500/40 dark:focus:ring-red-400/40;
+  }
+
+  .link {
+    @apply focusable rounded-sm underline decoration-zinc-600/20 decoration-2 underline-offset-2 transition hover:decoration-zinc-600/40 focus:decoration-transparent dark:decoration-white/20 dark:hover:decoration-white/40;
+  }
+}
+
+@layer components {
+}
+
+@layer font {
+  /* Source Code Pro */
+  @font-face {
+    font-family: 'Source Code Pro';
+    src: url('/fonts/google-fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf')
+      format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /* Noto Serif JP */
+  @font-face {
+    font-family: 'Noto Serif JP';
+    src: url('/fonts/google-fonts/noto-serif-jp/NotoSerifJP-VariableFont_wght.ttf')
+      format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-noto-serif-jp {
+    font-family: 'Noto Serif JP', serif;
+    font-style: normal;
+  }
+
+  /* Noto Sans JP */
+  @font-face {
+    font-family: 'Noto Sans JP';
+    src: url('/fonts/google-fonts/noto-sans-jp/NotoSansJP-VariableFont_wght.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-noto-sans-jp {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal;
+  }
+
+  /* Kosugi Maru */
+  @font-face {
+    font-family: 'Kosugi Maru';
+    src: url('/fonts/google-fonts/kosugi-maru/KosugiMaru-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-kosugi-maru {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-style: normal;
+  }
+
+  /* Hanazome */
+  @font-face {
+    font-family: 'Hanazome';
+    src: url('/fonts/hanazome/はなぞめフォント.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-hanazome {
+    font-family: 'Hanazome', sans-serif;
+  }
+
+  /* JK Gothic */
+  @font-face {
+    font-family: 'JK Gothic L';
+    src: url('/fonts/jk-go/JKG-L_3.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-jkgothicl {
+    font-family: 'JK Gothic L';
+  }
+
+  /* Calligraphy */
+  /* Y.OzFont */
+  @font-face {
+    font-family: 'YOzFont';
+    src: url('/fonts/YOZFont/YOzkrRSXMF.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-yozfont {
+    font-family: 'YOzFont';
+  }
+
+  /* FUTENE */
+  @font-face {
+    font-family: 'FUTENE';
+    src: url('/fonts/futene/FUTENE.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-futene {
+    font-family: 'FUTENE';
+  }
+
+  /* ちはやゴシック */
+  @font-face {
+    font-family: 'Chihaya Gothic';
+    src: url('/fonts/chihayagothic/ちはやゴシック.ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-chihayagothic {
+    font-family: 'Chihaya Gothic';
+  }
+
+  /* Yutapon Coding */
+  @font-face {
+    font-family: 'Yutapon Coding';
+    src: url('/fonts/yutapon/yutapon_coding_080.ttc') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-yutapon {
+    font-family: 'Yutapon Coding';
+  }
+  /* Kodomo */
+  @font-face {
+    font-family: 'Kodomo';
+    src: url('/fonts/kodomo/KodomoRounded-Light.otf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-kodomo {
+    font-family: 'Kodomo';
+  }
+  /* ゆず ペン字 */
+  @font-face {
+    font-family: 'Yuzu Pen';
+    src: url('/fonts/YuzuPenJiN/ゆず ペン字 N [M].ttf') format('truetype');
+    font-display: swap;
+    font-style: normal;
+  }
+
+  .font-yuzupen {
+    font-family: 'Yuzu Pen';
+  }
+}
