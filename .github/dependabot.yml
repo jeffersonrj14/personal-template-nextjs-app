@@ -10,4 +10,4 @@ updates:
     assignees:
       - "jeffersonrj14"
     schedule:
-      interval: "monthly"
+      interval: "weekly"

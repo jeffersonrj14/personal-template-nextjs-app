@@ -1,6 +1,11 @@
 {
   "name": "personal-template-next-app",
   "version": "0.1.0",
+  "author": {
+    "name": "RJ Jefferson",
+    "email": "jefferson@jeffersonrj.com",
+    "url": "https://jeffersonrj.com"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "next dev -p 60536",

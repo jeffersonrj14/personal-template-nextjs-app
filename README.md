@@ -7,7 +7,6 @@
 - Styling: [Tailwind CSS](https://tailwindcss.com/)
 - Icon: [React Icon](https://github.com/react-icons/react-icons)
 - Analytics: [Umami](https://umami.is/)
-- Git Hooks: [Husky](https://typicode.github.io/husky/)
 - Code Formatting: [Prettier](https://prettier.io/)
 - Package Manager: [PNPM](https://pnpm.io/)
 - Deployment: [Vercel](https://vercel.com/)
