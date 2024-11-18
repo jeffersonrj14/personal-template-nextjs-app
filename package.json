@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.11.1",
-    "framer-motion": "^11.5.0",
+    "framer-motion": "^11.11.17",
     "next": "14.2.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
