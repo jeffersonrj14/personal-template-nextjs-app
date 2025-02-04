@@ -24,6 +24,11 @@ const nextConfig = {
         source: '/(twitter|x)',
         destination: 'https://x.com/jeffersonrj14',
         permanent: true
+      },
+      {
+        source: '/(template|nextjs)',
+        destination: 'https://github.com/jeffersonrj14/personal-template-nextjs-app',
+        permanent: true
       }
     ]
   }

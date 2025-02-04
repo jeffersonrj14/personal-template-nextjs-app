@@ -2,7 +2,7 @@
 
 ## Tech Stack:
 
-- Framework: [Next.js App Router](https://nextjs.org/docs/app)
+- Framework: [Next.js 15 App Router](https://nextjs.org/docs/app)
 - Animation: [Framer Motion](https://www.framer.com/motion/)
 - Styling: [Tailwind CSS](https://tailwindcss.com/)
 - Icon: [React Icon](https://github.com/react-icons/react-icons)
@@ -10,6 +10,7 @@
 - Code Formatting: [Prettier](https://prettier.io/)
 - Package Manager: [PNPM](https://pnpm.io/)
 - Deployment: [Vercel](https://vercel.com/)
+- Environment Variables: [T3 Env](https://env.t3.gg/docs/introduction)
 
 ## ©️ Attribution
 
@@ -19,3 +20,8 @@
 2. [Noto Sans Japanese](https://fonts.google.com/noto/specimen/Noto+Sans+JP?query=noto+san)
 3. [Noto Serif Japanese](https://fonts.google.com/noto/specimen/Noto+Serif+JP?noto.query=noto+serif+japan)
 4. [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?preview.layout=grid&query=source+code+pro)
+
+
+## License
+
+[MIT License](https://github.com/jeffersonrj14/personal-template-nextjs-app/blob/master/LICENSE)
