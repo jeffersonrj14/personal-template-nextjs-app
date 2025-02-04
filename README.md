@@ -2,7 +2,7 @@
 
 ## Tech Stack:
 
-- Framework: [Next.js App Router](https://nextjs.org/docs/app)
+- Framework: [Next.js 14 App Router](https://nextjs.org/docs/app)
 - Animation: [Framer Motion](https://www.framer.com/motion/)
 - Styling: [Tailwind CSS](https://tailwindcss.com/)
 - Icon: [React Icon](https://github.com/react-icons/react-icons)
@@ -10,6 +10,7 @@
 - Code Formatting: [Prettier](https://prettier.io/)
 - Package Manager: [PNPM](https://pnpm.io/)
 - Deployment: [Vercel](https://vercel.com/)
+- Environment Variables: [T3 Env](https://env.t3.gg/docs/introduction)
 
 ## ©️ Attribution
 
